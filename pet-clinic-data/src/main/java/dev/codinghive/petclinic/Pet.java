@@ -1,4 +1,4 @@
-package dev.codinghive.petclinic.model;
+package dev.codinghive.petclinic;
 
 import java.time.LocalDate;
 

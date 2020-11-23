@@ -1,4 +1,4 @@
-package dev.codinghive.petclinic.model;
+package dev.codinghive.petclinic;
 
 public class Person {
     private String firstName;
