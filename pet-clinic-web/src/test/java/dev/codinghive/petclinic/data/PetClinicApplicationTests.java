@@ -1,4 +1,4 @@
-package dev.codinghive.petclinic;
+package dev.codinghive.petclinic.data;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
