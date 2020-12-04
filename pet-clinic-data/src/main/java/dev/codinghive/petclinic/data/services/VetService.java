@@ -5,11 +5,6 @@ import dev.codinghive.petclinic.data.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
+public interface VetService extends CrudService<Vet,Long>{//<Vet,Long> going to map on java generics <T,ID>
 
-    Vet findById(Long id);
-
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
