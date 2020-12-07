@@ -8,5 +8,5 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class OwnerController {
     @Autowired
-    dev.codinghive.petclinic.data.services.map.OwnerServiceMap OwnerServiceMap;
+    OwnerServiceMap OwnerServiceMap;
 }
