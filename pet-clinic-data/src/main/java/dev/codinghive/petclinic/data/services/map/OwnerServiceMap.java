@@ -2,9 +2,11 @@ package dev.codinghive.petclinic.data.services.map;
 
 import dev.codinghive.petclinic.data.model.Owner;
 import dev.codinghive.petclinic.data.services.CrudService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
 
     @Override
